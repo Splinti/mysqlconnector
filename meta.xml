@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<meta>
+  
+  <assembly ref="MySql.Data.dll"/>
+  <assembly ref="System.dll"/>
+  <assembly ref="System.Data.dll"/>
+
+  <script src="MySql.cs" type="server" lang="csharp"/>
+
+  <export class="MySqlConnector" function="GetConnection"/>
+  
+</meta>
